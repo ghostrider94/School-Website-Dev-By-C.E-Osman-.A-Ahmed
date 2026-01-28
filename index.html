@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Future Academy - Home</title>
+	<link rel="icon" href="assets/home-button.ico" type="image/ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Bright Future Academy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background-wrapper">
+            <video class="hero-video" autoplay muted loop preload="metadata">
+                <source src="https://res.cloudinary.com/dcle3bn3m/video/upload/q_auto,f_auto/v1769600648/6935633_sxgm6y.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to Bright Future Academy</h1>
+            <p>Empowering Students to Reach Their Full Potential</p>
+            <div class="herobuttons">
+                <a href="admissions.html" class="hero-buttons">Apply Now</a>
+                <a href="about.html" class="hero-buttons">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Expert Faculty</h3>
+                    <p>Highly qualified and experienced teachers dedicated to student success</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Modern Facilities</h3>
+                    <p>State-of-the-art classrooms and technology-enabled learning environments</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Small Class Sizes</h3>
+                    <p>Personalized attention with optimal student-teacher ratios</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Excellence in Sports</h3>
+                    <p>Comprehensive athletics program with professional coaching</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <h2 class="section-title">Latest News & Events</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-media-wrapper">
+                        <video class="news-video" autoplay muted loop preload="metadata">
+                            <source src="https://res.cloudinary.com/dcle3bn3m/video/upload/c_fill,g_auto,h_400,w_400/q_auto,f_auto/v1769602625/7231698_hwdhlc.mp4" type="video/mp4">
+                        </video>
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400&h=250&fit=crop" alt="STEM Education" class="news-fallback-image">
+                        <div class="video-play-button" onclick="this.parentElement.querySelector('.news-video').play(); this.style.display='none';">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">October 15, 2025</span>
+                        <h3>New STEM Program Launch</h3>
+                        <p>We're excited to announce our enhanced STEM curriculum starting next semester.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-media-wrapper">
+                        <video class="news-video" autoplay muted loop preload="metadata">
+                            <source src="https://res.cloudinary.com/dcle3bn3m/video/upload/c_fill,g_auto,h_400,w_400/q_auto,f_auto/v1769601537/7945188_rafyxn.mp4" type="video/mp4">
+                        </video>
+                        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=250&fit=crop" alt="Sports team" class="news-fallback-image">
+                        <div class="video-play-button" onclick="this.parentElement.querySelector('.news-video').play(); this.style.display='none';">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">October 10, 2025</span>
+                        <h3>Championship Victory</h3>
+                        <p>Our basketball team wins the regional championship for the third consecutive year!</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-media-wrapper">
+                        <video class="news-video" autoplay muted loop preload="metadata">
+                            <source src="https://res.cloudinary.com/dcle3bn3m/video/upload/c_fill,g_auto,h_400,w_400/q_auto,f_auto/v1769599597/ross_zld8le.mp4" type="video/mp4">
+                        </video>
+                        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400&h=250&fit=crop" alt="Sports team" class="news-fallback-image">
+                        <div class="video-play-button" onclick="this.parentElement.querySelector('.news-video').play(); this.style.display='none';">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">October 5, 2025</span>
+                        <h3>Open House Event</h3>
+                        <p>Join us for our annual open house on November 15th to tour our facilities.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Students</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Teachers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bright Future Academy</h3>
+                    <p>Committed to excellence in education and preparing students for tomorrow's challenges.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@brightfuture.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+		  &copy; 2026 Bright Future Academy. All rights reserved. 
+		  | Designed & Developed with ❤️ by 
+		  <a href="https://osmandesign.site" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">
+			C.E Osman .A Ahmed 
+		  </a>
+		</p>
+            </div>
+        </div>
+    </footer>
+	<script>
+	document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+        const item = question.parentElement;
+        
+        // إغلاق أي سؤال آخر مفتوح (اختياري)
+        document.querySelectorAll('.faq-item').forEach(otherItem => {
+            if (otherItem !== item) otherItem.classList.remove('active');
+        });
+
+        // فتح أو إغلاق السؤال الحالي
+        item.classList.toggle('active');
+    });
+});
+	</script>
+    <script src="js/script.js"></script>
+</body>
+</html>

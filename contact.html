@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bright Future Academy</title>
+	<link rel="icon" href="assets/phone.ico" type="image/ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Bright Future Academy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>123 Education Street<br>Learning City, LC 12345<br>United States</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Main Office: (555) 123-4567<br>Admissions: (555) 123-4568<br>Fax: (555) 123-4569</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>General: info@brightfuture.edu<br>Admissions: admissions@brightfuture.edu<br>Support: support@brightfuture.edu</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM<br>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="admissions">Admissions Question</option>
+                                <option value="programs">Programs Information</option>
+                                <option value="financial">Financial Aid</option>
+                                <option value="tour">Schedule a Tour</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="contactFormMessage" class="form-message"></div>
+                </div>
+                <div class="map-wrapper">
+                    <h2>Our Location</h2>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1841491086836!2d-73.98823492346632!3d40.75797423538915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1698765432100!5m2!1sen!2sus"
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="directions">
+                        <h3>Getting Here</h3>
+                        <p><strong>By Car:</strong> Free parking available in our main lot on Education Street.</p>
+                        <p><strong>By Public Transit:</strong> Bus routes 15, 23, and 45 stop directly in front of the school.</p>
+                        <p><strong>By Subway:</strong> Take the Blue Line to Learning Station (2 blocks away).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Contacts -->
+    <section class="departments">
+        <div class="container">
+            <h2 class="section-title">Department Contacts</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Administration</h3>
+                    <p><strong>Dr. Sarah Johnson</strong>Principal</p>
+                    <p><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (555) 123-4570</p>
+                    <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; principal@brightfuture.edu</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-door-open"></i>
+                    <h3>Admissions Office</h3>
+                    <p><strong>Jennifer Martinez</strong>Director of Admissions</p>
+                    <p><i class="fas fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(555) 123-4568</p>
+                    <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; admissions@brightfuture.edu</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>Academic Affairs</h3>
+                    <p><strong>Mr. Michael Chen</strong>Vice Principal</p>
+                    <p><i class="fas fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(555) 123-4571</p>
+                    <p><i class="fas fa-envelope"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;academics@brightfuture.edu</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Student Services</h3>
+                    <p><strong>Ms. Emily Rodriguez</strong>Dean of Students</p>
+                    <p><i class="fas fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(555) 123-4572</p>
+                    <p><i class="fas fa-envelope"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;students@brightfuture.edu</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h3>Financial Aid</h3>
+                    <p><strong>Robert Thompson</strong>Financial Aid Officer</p>
+                    <p><i class="fas fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(555) 123-4573</p>
+                    <p><i class="fas fa-envelope"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;financialaid@brightfuture.edu</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>IT Support</h3>
+                    <p><strong>Tech Support Team</strong>Technical Assistance</p>
+                    <p><i class="fas fa-phone"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(555) 123-4574</p>
+                    <p><i class="fas fa-envelope"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;support@brightfuture.edu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your admission requirements?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We require a completed application form, transcripts, two letters of recommendation, birth certificate, health records, and a $50 application fee. Visit our <a href="admissions.html">Admissions page</a> for complete details.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer financial aid?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer need-based financial aid, merit scholarships, and sibling discounts. Over 40% of our students receive some form of financial assistance.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your student-to-teacher ratio?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our elementary classes have 15-20 students, while middle and high school classes typically have 18-22 students, ensuring personalized attention for each student.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I schedule a campus tour?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Contact our admissions office at (555) 123-4568 or use the contact form above to schedule a personalized tour of our campus.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What extracurricular activities are available?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer over 30 clubs and activities including sports teams, arts programs, academic clubs, and service organizations. Check our <a href="programs.html">Programs page</a> for a complete list.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bright Future Academy</h3>
+                    <p>Committed to excellence in education and preparing students for tomorrow's challenges.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Education St, Learning City</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@brightfuture.edu</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+		  &copy; 2026 Bright Future Academy. All rights reserved. 
+		  | Designed & Developed with ❤️ by 
+		  <a href="https://osmandesign.site" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">
+			C.E Osman .A Ahmed 
+		  </a>
+		</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
